@@ -1,0 +1,158 @@
+.primary-btn-sm {
+  height: 42px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 2px 13px;
+
+  text-transform: uppercase;
+
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px 0 rgba(110, 109, 118, 0.25);
+  background-color: #1a2217;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.primary-btn {
+  height: 48px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 2px 13px;
+
+  text-transform: uppercase;
+
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px 0 rgba(110, 109, 118, 0.25);
+  background-color: #1a2217;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.primary-btn-md {
+  height: 60px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.4;
+
+  text-transform: uppercase;
+
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  background-color: #1a2217;
+  &:hover {
+    // background-color: $theme-color;
+    opacity: 0.8;
+  }
+}
+
+.primary-btn-lg {
+  height: 74px;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.4;
+  padding: 7px 37px;
+
+  text-transform: uppercase;
+
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  background-color: #1a2217;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.secondary-btn-md {
+  height: 60px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.4;
+
+  text-transform: uppercase;
+
+  color: #202d3e;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.secondary-btn {
+  height: 48px;
+  border-radius: 10px;
+  border: solid 1px #cbd5e1;
+  background-color: #fff;
+  padding: 3.5px 9px 3.5px 8px;
+
+  text-transform: uppercase;
+
+  color: #627084;
+}
+
+.secondary-btn-form {
+  height: 39px;
+  border-radius: 10px;
+  border: solid 1px #cbd5e1;
+  background-color: #fff;
+  padding: 7px 19px;
+
+  text-transform: uppercase;
+
+  color: #627084;
+}
+
+.social-btn {
+  width: 44px;
+  height: 44px;
+
+  border: none;
+  transition: all 0.3s ease 0s;
+  text-align: center;
+  border-radius: 100%;
+  img {
+    width: 32px;
+  }
+  &.bg-social-green {
+    img {
+      width: 24px;
+    }
+  }
+}
+
+.social-btn-border {
+  border: solid 1.5px #d9e1ec;
+}
+
+.nav-pills .nav-link.active {
+  min-width: 148px;
+  border-radius: 30px;
+  background-color: #1a2217;
+  color: #fff;
+}
+
+.nav-pills .nav-link {
+  min-width: 148px;
+  border-radius: 30px;
+  background-color: #eff3f6;
+  color: #202d3e;
+}
+
+.btn-border {
+  border: solid 1px #cbd5e1;
+}
+
+.btn-border-radius-20 {
+  border-radius: 20px;
+}

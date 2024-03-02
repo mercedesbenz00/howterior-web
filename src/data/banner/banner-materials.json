@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/img/materials/material1.png"
+  },
+  {
+    "id": 2,
+    "image": "/assets/img/materials/material2.png"
+  },
+  {
+    "id": 3,
+    "image": "/assets/img/materials/material3.png"
+  },
+  {
+    "id": 4,
+    "image": "/assets/img/materials/material4.png"
+  },
+  {
+    "id": 5,
+    "image": "/assets/img/materials/material5.png"
+  },
+  {
+    "id": 6,
+    "image": "/assets/img/materials/material6.png"
+  },
+  {
+    "id": 7,
+    "image": "/assets/img/materials/material7.png"
+  }
+]

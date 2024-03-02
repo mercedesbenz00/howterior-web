@@ -1,0 +1,21 @@
+.modal-dialog {
+  .modal-header {
+    border-bottom: 0 none;
+    padding: 24px;
+    .close {
+      cursor: pointer;
+
+      opacity: 1;
+      color: #333;
+      &:hover {
+        color: $theme-color;
+      }
+    }
+  }
+  .modal-body {
+    padding: 8px 24px;
+  }
+  .modal-footer {
+    border-top: 0 none;
+  }
+}

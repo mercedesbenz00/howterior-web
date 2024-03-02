@@ -1,0 +1,47 @@
+.form-group {
+  text-align: left;
+  margin-bottom: 16px;
+  .form-label {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .form-control {
+    outline: none;
+    box-shadow: none;
+    border-radius: 10px;
+    border: solid 1px #cbd5e1;
+    background-color: #fff;
+  }
+}
+
+.form-control::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-size: 14px;
+  color: #627084;
+  opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder {
+  font-size: 14px;
+  color: #627084;
+}
+
+.form-control::-ms-input-placeholder {
+  font-size: 14px;
+  color: #627084;
+}
+.select-wrapper {
+  height: 44px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}

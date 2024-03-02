@@ -1,0 +1,34 @@
+.bubble-area {
+  background-image: url("../../../public/assets/img/bubble/bubble-home-3.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.bubble-welcome-content {
+  width: 100%;
+  max-width: 560px;
+  flex-grow: 0;
+  padding: 76px 49px 69px 48px;
+  border-radius: 80px;
+  box-shadow: 4px 8px 8px 0 rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+}
+
+.bubble-welcome-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.bubble-result-block {
+  background-color: rgba(239, 243, 246, 0.6);
+  border-radius: 88px;
+  padding: 48px 0;
+}
+
+.bubble-level-container {
+  max-width: 254px;
+  padding: 7.5px 40.2px 8.8px 39px;
+  border-radius: 60px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+}

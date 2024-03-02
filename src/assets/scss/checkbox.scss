@@ -1,0 +1,122 @@
+.checkbox-wrapper {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+/* Customizing the checkbox */
+
+.checkbox-wrapper {
+  &.checkbox--sm {
+    /* creating a custom design */
+    input[type="checkbox"] {
+      width: 16px;
+      height: 16px;
+    }
+  }
+  &.checkbox--md {
+    /* creating a custom design */
+    input[type="checkbox"] {
+      width: 18px;
+      height: 18px;
+    }
+  }
+  &.checkbox--lg {
+    /* creating a custom design */
+    input[type="checkbox"] {
+      width: 22px;
+      height: 20px;
+    }
+  }
+  &.checkbox--round {
+    input[type="checkbox"] {
+      border-radius: 3px;
+    }
+  }
+  input[type="checkbox"] {
+    /* removing default appearance */
+    -webkit-appearance: none;
+    appearance: none;
+
+    // border-radius: 0.15em;
+    z-index: 1;
+    margin-right: 0.5em;
+    border: 1px solid #1a2217;
+    background-color: #fff;
+    outline: none;
+    cursor: pointer;
+    &:checked {
+      background-color: #1a2217;
+      position: relative;
+      &::before {
+        color: #fff;
+      }
+    }
+  }
+  &.checkbox--light {
+    input[type="checkbox"] {
+      border: 1px solid #627084;
+      &:checked {
+        background-color: transparent;
+        &::before {
+          color: #000;
+        }
+      }
+    }
+  }
+  &.checkbox--gray-border {
+    input[type="checkbox"] {
+      border: 1px solid #94a3b8;
+    }
+  }
+}
+
+.checkbox-wrapper {
+  input[type="checkbox"]:checked::before {
+    content: "\2714";
+    font-size: 14px;
+    position: absolute;
+    right: 1px;
+    top: -5px;
+  }
+  &.checkbox--md {
+    input[type="checkbox"]:checked::before {
+      font-size: 16px;
+      right: 1px;
+      top: -4px;
+    }
+  }
+  &.checkbox--lg {
+    input[type="checkbox"]:checked::before {
+      font-size: 18px;
+      right: 3px;
+      top: -4px;
+    }
+  }
+}
+
+.checkbox-wrapper input[type="checkbox"]:disabled {
+  border-color: #c0c0c0;
+  background-color: #c0c0c0;
+}
+
+.checkbox-wrapper input[type="checkbox"]:disabled + span {
+  color: #c0c0c0;
+}
+
+// .checkbox-wrapper input[type="checkbox"]:focus {
+//   box-shadow: 0 0 20px #1a2217;
+// }
+
+.base {
+  width: 6px;
+  height: 24px;
+  left: 4px;
+  z-index: 0;
+  flex-grow: 0;
+  box-sizing: content-box;
+  transform: rotate(-180deg);
+  border-radius: 3px;
+  background-color: #1a2217;
+  border: 1px solid #1a2217;
+}

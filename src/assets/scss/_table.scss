@@ -1,0 +1,17 @@
+.table-borderless > thead {
+  border-bottom: 1px solid #f2f1ff;
+}
+.table-borderless.border-bottom {
+  border-collapse: collapse;
+  tr {
+    border-bottom: 1px solid #cbd5e1;
+  }
+}
+
+.table .cell-padding {
+  padding-top: 24px;
+}
+
+.table th {
+  padding-bottom: 16px;
+}

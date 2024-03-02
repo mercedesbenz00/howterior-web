@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "big_image": "/assets/img/rooms/big/room1.jpg",
+    "small_image":  "/assets/img/rooms/small/room1.jpg"
+  },
+  {
+    "id": 2,
+    "big_image": "/assets/img/rooms/big/room1.jpg",
+    "small_image":  "/assets/img/rooms/small/room2.jpg"
+  },
+  {
+    "id": 3,
+    "big_image": "/assets/img/rooms/big/room1.jpg",
+    "small_image":  "/assets/img/rooms/small/room3.jpg"
+  },
+  {
+    "id": 4,
+    "big_image": "/assets/img/rooms/big/room1.jpg",
+    "small_image":  "/assets/img/rooms/small/room4.jpg"
+  },
+  {
+    "id": 5,
+    "big_image": "/assets/img/rooms/big/room1.jpg",
+    "small_image":  "/assets/img/rooms/small/room5.jpg"
+  },
+  {
+    "id": 6,
+    "big_image": "/assets/img/rooms/big/room1.jpg",
+    "small_image":  "/assets/img/rooms/small/room6.jpg"
+  }
+]
